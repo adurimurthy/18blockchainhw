@@ -1,18 +1,13 @@
 # Proof of Authority Development Chain
 
-For this assignment, you will take on the role of a new developer at a small bank.
+As a developer at a small bank , the task is to set up a  testnet blockchain for your organization.
+The following have been set up :
 
-Your mission, should you choose to accept it, will be to set up a testnet blockchain for your organization.
+* Set up your custom testnet blockchain called 18blockchainhw
 
-To do this, you will create and submit four deliverables:
+* Sending a test transaction from node 6 to node 5 
 
-* Set up your custom testnet blockchain.
-
-* Send a test transaction.
-
-* Create a repository.
-
-* Write instructions on how to use the chain for the rest of your team.
+* Create a repository : 18blockchainhw repository has been created at https://github.com/adurimurthy/18blockchainhw
 
 ## Background
 
@@ -47,9 +42,9 @@ Be sure to include any preliminary setup information, such as installing depende
 
 ### Setup the custom out-of-the-box blockchain
 
-* Create a new project directory for your new network. Call it whatever you want!
+* A new project directory has been created
 
-* Create a "Screenshots" folder inside of the project directory.
+*A pdf document with all the screen shots has been uploaded
 
 * Create accounts for two (or more) nodes for the network with a separate `datadir` for each using `geth`.
 
@@ -87,7 +82,7 @@ Be sure to include any preliminary setup information, such as installing depende
 
 * You will need to use a custom network, and include the chain ID, and use ETH as the currency.
 
-![custom-node](Images/custom-node.png)
+# Images at https://github.com/adurimurthy/18blockchainhw/blob/main/screenshots_18hw.pdf
 
 * Import the keystore file from the `node1/keystore` directory into MyCrypto. This will import the private key.
 
@@ -99,11 +94,11 @@ Be sure to include any preliminary setup information, such as installing depende
 
 * Celebrate, you just created a blockchain and sent a transaction!
 
-![transaction-success](Images/transaction-success.png)
+# Images at https://github.com/adurimurthy/18blockchainhw/blob/main/screenshots_18hw.pdf
 
 ### Create a repository, and instructions for launching the chain
 
-* Create a `README.md` in your project directory and create documentation that explains how to start the network.
+* A `README.md` in your project directory and create documentation that explains how to start the network. The current file is the README.md file
 
 * Remember to include any environment setup instructions and dependencies.
 
